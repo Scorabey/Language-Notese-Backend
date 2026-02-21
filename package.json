@@ -4,7 +4,7 @@
   "description": "",
   "main": "db.json5",
   "scripts": {
-    "start": "node node_modules/json-server/lib/bin.js db.json5 --port $PORT --host 0.0.0.0 --no-watch"
+    "start": "node_modules/.bin/json-server --watch db.json5 --port $PORT --host 0.0.0.0"
   },
   "author": "Scorabey",
   "license": "ISC",
