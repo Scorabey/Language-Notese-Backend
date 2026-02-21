@@ -2,9 +2,9 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "",
-  "main": "db.json5",
+  "main": "db.json",
   "scripts": {
-    "start": "node node_modules/json-server/lib/cli/bin.js db.json5 --port $PORT --host 0.0.0.0"
+    "start": "node node_modules/json-server/lib/cli/bin.js db.json --port $PORT --host 0.0.0.0"
   },
   "author": "Scorabey",
   "license": "ISC",
